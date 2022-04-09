@@ -1,0 +1,170 @@
+.Topherder {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  background-color: white;
+  margin-bottom: 2rem;
+  // padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 57px 5px 83px;
+  align-items: center;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px 5px 20px;
+  .herder_loge {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: azure;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1.1rem;
+    margin-left: 1.5rem;
+    img {
+      width: 100%;
+      border-radius: 100%;
+    }
+  }
+  .herder_input {
+    width: 19rem;
+    height: 3rem;
+    margin-top: 0.5rem;
+    // margin-left: 2rem;
+    // background-color: black;
+
+    input {
+      width: 100%;
+      border-right: 0px solid black;
+    }
+    button {
+      border-left: 0px solid black;
+      margin-left: -2rem;
+    }
+    .ant-input-group {
+      border-radius: 1rem !important;
+    }
+  }
+
+  .herder_button {
+    // width: 290px;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+
+    border: none;
+    button {
+      width: 100%;
+      height: 2.5rem;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+      background: linear-gradient(86.43deg, #8a2be1 35.74%, #bc8aff 82.02%);
+      //  filter: blur(2px);
+      border: none;
+      border-radius: 10px;
+    }
+  }
+
+  .herder_waller {
+    width: 35rem;
+    height: 3rem;
+    // background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .herder_waller_box {
+      width: 100%;
+      height: 2rem;
+      // background-color: white;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      .gas_price,
+      .eth_price {
+        display: flex;
+        align-items: center;
+        width: 5rem;
+        height: 2rem;
+        line-height: 2rem;
+        // background-color: yellow;
+        margin-left: 1rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: rgb(128, 61, 141);
+
+        p {
+          margin: 0;
+        }
+      }
+      .gas_price {
+        img {
+          width: 24px;
+          height: 24px;
+          margin-right: 8px;
+        }
+      }
+      .eth_price {
+        img {
+          width: 36px;
+          height: 36px;
+          //   margin-right: 2px;
+        }
+      }
+    }
+  }
+  .herder_waller_fee {
+    // width: 250px;
+    height: 3rem;
+    margin-left: 50px;
+    // background-color: yellow;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    // background-color: #8A2BE1;
+    .herder_waller_fee_div {
+      display: flex;
+      flex-wrap: nowrap;
+      .wallet_info {
+        display: flex;
+        .wallet_avatar {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+          }
+          svg {
+            margin-left: 0px;
+          }
+        }
+      }
+      p {
+        height: 2rem;
+        line-height: 3rem;
+        margin-left: 16px;
+        margin-right: 50px;
+      }
+    }
+    svg {
+      margin-left: 1rem;
+      width: 1.8rem;
+      height: 1.8rem;
+    }
+  }
+  .herder_serach {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+}

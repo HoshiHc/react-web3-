@@ -1,0 +1,32 @@
+.datetime .datetime_one {
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding-top: 0.2rem;
+  align-items: center;
+}
+.datetime .datetime_one .datetime_one_one {
+  margin-left: 2rem;
+  border: 0px solid beige !important;
+}
+.datetime .datetime_one .datetime_one_one .ant-select-selector {
+  border: 0px solid gainsboro !important;
+  line-height: 2rem;
+}
+.datetime .datetime_one .datetime_one_two {
+  margin-right: 2rem;
+  line-height: 2rem;
+  border: 0px solid beige !important;
+}
+.datetime .datetime_one .datetime_one_two .ant-select-selector {
+  border: 0px solid gainsboro !important;
+}
+.datetime .datetime_one svg {
+  margin-top: 0.2rem !important;
+}
+.site-calendar-customize-header-wrapper {
+  width: 100%;
+  height: 400px;
+}
